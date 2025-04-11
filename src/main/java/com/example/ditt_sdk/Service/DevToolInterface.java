@@ -1,4 +1,4 @@
-package com.example.ditt.Services;
+package com.example.ditt_sdk.Service;
 
 public interface DevToolInterface<I, O> {
     String getName();
