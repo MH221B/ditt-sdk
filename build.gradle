@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'java-library'
 }
 
 group = "com.example"
@@ -13,4 +13,8 @@ java {
 
 repositories {
     mavenCentral()
+}
+
+dependencies {
+    api "org.pf4j:pf4j:3.6.0"
 }
